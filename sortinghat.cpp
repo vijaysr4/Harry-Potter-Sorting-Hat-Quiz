@@ -126,6 +126,7 @@ int main() {
     max = hufflepuff;
     house = "Hufflepuff";
   }
+  
   if(ravenclaw > max) {
  
     max = ravenclaw;
@@ -137,6 +138,7 @@ int main() {
     max = slytherin;
     house = "Slytherin";
   }
+  
   //sorted house
   std::cout << house << "!\n";
 
